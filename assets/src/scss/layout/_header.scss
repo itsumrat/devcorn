@@ -1,6 +1,8 @@
 /*Menu toggle button*/
 #menu-btn{ 
-  position: relative; left: 1em; top: 1em;
+  position: relative; 
+  left: 1em; 
+  top: 1em;
   float: right;
   width: 3em;
   padding: 1.5em;
@@ -8,7 +10,9 @@
   transition: all .2s ease-out;
 }
 /*Cursor on toggle button hover*/
-#menu-btn:hover{ cursor: pointer; }
+#menu-btn:hover { 
+  cursor: pointer; 
+}
 /*Changing color of hamburger lines on hover*/
 #menu-btn:hover .menu-line{ background-color: #999999; }
 
