@@ -11,15 +11,8 @@ Copyright 2015-2015 Saddam Azad
 
 @charset "utf-8";
 
-// Import Bootstrap parts
-@import "../../vendor/bootstrap/scss/variables";
-@import "../../vendor/bootstrap/scss/mixins";
-
-// Import "include media"
-@import "../../vendor/include-media/dist/include-media";
 
 // Helpers
-@import "helpers/variables";
 @import "helpers/mixins";
 @import "helpers/functions";
 @import "helpers/helpers";

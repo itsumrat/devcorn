@@ -2,8 +2,13 @@
  * Default
  * 
  */
-
+body {
+	margin: 0;
+}
 .body-container {
-	max-width: $body-max-width;
+	width:100%;
+	//max-width: 1600px;
 	margin: 0 auto;
+	overflow:hidden;
+	cursor:pointer;
 }
