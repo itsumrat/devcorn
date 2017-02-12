@@ -35,16 +35,99 @@
     display: inline-flex;
     list-style: none;
     padding: 0;
+    margin-top: 50px;
 
     li {
       font-size: 20px;
-      font-family: "Lato";
+      font-family: 'Lato', sans-serif;
+      text-transform: capitalize;
       color: rgb(255, 234, 0);
       line-height: 1;
-      font-family: 'Lato', sans-serif;
       border-right: 1px solid rgb(255, 234, 0);
       padding-right: 10px;
       padding-left: 10px;
+
+      &:last-of-type {
+        border-right: 0;
+      }
+
+      @media screen and (max-width: 365px) { 
+        font-size: 15px;
+    }
     }
   }
+}
+
+.social {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+
+    &:before {
+        position:absolute;
+        right: 97.5%;
+        top: 40%;
+        width: 500%;
+        height: 5px;
+        content: "";
+        border-bottom: 1px solid #fff;
+    }
+
+    li {
+        padding: 20px 12px;
+        margin: 0 5px;
+        border: 1px solid rgb(203, 203, 201);
+
+        &:hover {
+            border-color: rgb(255, 234, 0);
+        }
+
+        a {
+            padding: 9px;
+            border: 1px solid rgb(203, 203, 201);
+            border-radius: 50%;
+
+            &:hover {
+                border-color: rgb(255, 234, 0);
+            }
+
+            &:nth-of-type(1) {
+                padding: 9px 11px;
+            }
+
+            .fa {
+                color: rgb(203, 203, 201);
+
+                &:hover {
+                    color: rgb(255, 234, 0);
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 48em) { 
+        left: 30%;
+    }
+}
+
+.phone {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(203, 203, 201);
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: 1px;
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 82.4%;
+    right: 15%;
+
+    @media screen and (max-width: 48em) { 
+        top: 77%;
+        right: 35%;
+    }
 }

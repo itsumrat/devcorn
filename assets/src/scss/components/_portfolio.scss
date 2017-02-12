@@ -1,0 +1,57 @@
+#portfolio {
+	padding: 80px 0;
+
+	h1 {
+		font-size: 30px;
+		font-family: "arialRounded";
+		color: rgb(93, 93, 93);
+		line-height: 1.2;
+		margin-bottom: 80px;
+		text-transform: capitalize;
+	}
+
+	.products {
+		display: inline-flex;
+		font-family: Montserrat,sans-serif;
+		font-size: 16px;
+		line-height: 1.2;
+		color: #f2d904;
+
+		.dribbble {
+			margin-right: 150px;
+		}
+		.behance {
+			margin-right: 150px;
+		}
+		.envato {
+			margin-right: 150px;
+		}
+	}
+
+	h2 {
+		font-size: 30px;
+		font-family: "Times New Roman";
+		color: rgb(93, 93, 93);
+		line-height: 1.2;
+		text-transform: capitalize;
+		float: right;
+		margin-right: 80px;
+		margin-top: 40px;
+	}
+
+	.clients {
+		list-style: none;
+		display: inline-flex;
+		padding-left: 0;
+
+		li {
+			padding: 10px;
+			border: 1px solid gray;
+			margin-right: 20px;
+			font-size: 16px;
+			font-family: 'Montserrat', sans-serif;
+			color: rgb(55, 55, 55);
+			line-height: 2.125;
+		}
+	}
+}

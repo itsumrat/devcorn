@@ -1,0 +1,83 @@
+#process {
+	background: url(../img/process.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+	//height: 50vh;
+	width: 100%;
+	padding: 80px 0;
+
+	.box {
+		h1 {
+			font-size: 30px;
+			font-family: "arialRounded";
+			color: rgb(242, 217, 4);
+			line-height: 1.2;
+			margin-bottom: 80px;
+
+			&:after {
+				content: url('../img/title-dot.png');
+				position: absolute;
+	    		margin-top: -1%;
+			}
+		}
+
+		.procedure {
+			display: inline-flex;
+			font-size: 16px;
+			font-family: 'Montserrat', sans-serif;
+			color: rgb(242, 217, 4);
+			line-height: 1.2;
+			text-transform: uppercase;
+
+			/* .circle1,
+			.circle2,
+			.circle3,
+			.circle4 {
+				border-radius: 50%;
+				width: 7px;
+				height: 7px;
+				border: 2px solid rgb(254, 228, 10);
+				position: absolute;
+				left: 28%;
+    			top: 56%;
+			} */
+
+			.icon-box:after {
+				width: 7px;
+			    height: 7px;
+			    content: "";
+			    border: 2px solid #fee40a;
+			    border-radius: 50%;
+			    position: absolute;
+			    left: 132%;
+			    top: -30%;
+			}
+
+			.research,
+			.sketch,
+			.development,
+			.testing,
+			.launch {
+				margin-right: 125px;
+			}
+
+			.icon-box {
+				margin-bottom: 50px;
+				transform: rotate(43deg);
+
+				.fa {
+					padding: 35px 30px;
+					border: 2px solid rgb(254, 228, 10);
+					color: rgb(254, 228, 10);
+					transform: rotate(-43deg);
+					transition: all 0.2s;
+
+					&:hover {
+						color: rgb(255, 255, 255);
+						background-color: rgb(254, 228, 10);
+					}
+				}
+			}
+		}
+	}
+}

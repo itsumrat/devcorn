@@ -9,6 +9,7 @@ Licensed Commercial
 Copyright 2015-2015 Saddam Azad
 */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
 body {
   font-size: 16px;
   -webkit-hyphens: auto;
@@ -27,6 +28,148 @@ body {
   src: url(../fonts/arial-rounded-mt-bold.ttf);
 }
 
+#process {
+  position: relative;
+  width: 100%;
+  padding: 80px 0; 
+  background: url(../img/process.png) center center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+#process .box h1 {
+  margin-bottom: 80px; 
+  font-family: "arialRounded";
+  font-size: 30px;
+  line-height: 1.2;
+  color: #f2d904;
+}
+#process .box h1:after {
+  position: absolute;
+  margin-top: -1%; 
+  content: url("../img/title-dot.png");
+}
+#process .box .procedure {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display:         inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #f2d904;
+  text-transform: uppercase;
+  /* .circle1,
+			.circle2,
+			.circle3,
+			.circle4 {
+				border-radius: 50%;
+				width: 7px;
+				height: 7px;
+				border: 2px solid rgb(254, 228, 10);
+				position: absolute;
+				left: 28%;
+    			top: 56%;
+			} */
+}
+#process .box .procedure .icon-box:after {
+  position: absolute;
+  top: -30%; 
+  left: 132%;
+  width: 7px;
+  height: 7px;
+  content: "";
+  border: 2px solid #fee40a;
+  border-radius: 50%;
+}
+#process .box .procedure .research,
+    #process .box .procedure .sketch,
+    #process .box .procedure .development,
+    #process .box .procedure .testing,
+    #process .box .procedure .launch {
+  margin-right: 125px;
+}
+#process .box .procedure .icon-box {
+  margin-bottom: 50px;
+  -webkit-transform: rotate(43deg);
+      -ms-transform: rotate(43deg);
+       -o-transform: rotate(43deg);
+          transform: rotate(43deg);
+}
+#process .box .procedure .icon-box .fa {
+  padding: 35px 30px;
+  color: #fee40a;
+  border: 2px solid #fee40a;
+  -webkit-transition: all .2s;
+       -o-transition: all .2s;
+          transition: all .2s; 
+  -webkit-transform: rotate(-43deg);
+      -ms-transform: rotate(-43deg);
+       -o-transform: rotate(-43deg);
+          transform: rotate(-43deg);
+}
+#process .box .procedure .icon-box .fa:hover {
+  color: white;
+  background-color: #fee40a;
+}
+
+#portfolio {
+  padding: 80px 0;
+}
+#portfolio h1 {
+  margin-bottom: 80px;
+  font-family: "arialRounded";
+  font-size: 30px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-transform: capitalize;
+}
+#portfolio .products {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display:         inline-flex;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #f2d904;
+}
+#portfolio .products .dribbble {
+  margin-right: 150px;
+}
+#portfolio .products .behance {
+  margin-right: 150px;
+}
+#portfolio .products .envato {
+  margin-right: 150px;
+}
+#portfolio h2 {
+  float: right;
+  margin-top: 40px; 
+  margin-right: 80px;
+  font-family: "Times New Roman";
+  font-size: 30px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-transform: capitalize;
+}
+#portfolio .clients {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display:         inline-flex;
+  padding-left: 0; 
+  list-style: none;
+}
+#portfolio .clients li {
+  padding: 10px;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 2.125; 
+  color: #373737;
+  border: 1px solid gray;
+}
+
 /*
  * Default
  * 
@@ -39,7 +182,6 @@ body {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  cursor: pointer;
 }
 
 #hero {
@@ -84,16 +226,100 @@ body {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display:         inline-flex;
-  padding: 0; 
+  padding: 0;
+  margin-top: 50px; 
   list-style: none;
 }
 .header ul li {
   padding-right: 10px;
   padding-left: 10px; 
-  font-family: "Lato";
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 1;
   color: #ffea00;
+  text-transform: capitalize;
   border-right: 1px solid #ffea00;
+}
+.header ul li:last-of-type {
+  border-right: 0;
+}
+@media screen and (max-width: 365px) {
+  .header ul li {
+    font-size: 15px;
+  }
+}
+
+.social {
+  position: absolute;
+  top: 80%;
+  left: 15%; 
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display:         inline-flex;
+  padding: 0;
+  list-style: none;
+}
+.social:before {
+  position: absolute;
+  top: 40%;
+  right: 97.5%;
+  width: 500%;
+  height: 5px;
+  content: "";
+  border-bottom: 1px solid #fff;
+}
+.social li {
+  padding: 20px 12px;
+  margin: 0 5px;
+  border: 1px solid #cbcbc9;
+}
+.social li:hover {
+  border-color: #ffea00;
+}
+.social li a {
+  padding: 9px;
+  border: 1px solid #cbcbc9;
+  border-radius: 50%;
+}
+.social li a:hover {
+  border-color: #ffea00;
+}
+.social li a:nth-of-type(1) {
+  padding: 9px 11px;
+}
+.social li a .fa {
+  color: #cbcbc9;
+}
+.social li a .fa:hover {
+  color: #ffea00;
+}
+@media screen and (max-width: 48em) {
+  .social {
+    left: 30%;
+  }
+}
+
+.phone {
+  position: absolute;
+  top: 82.4%;
+  right: 15%; 
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display:         inline-flex;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.667;
+  color: #cbcbc9;
+  letter-spacing: 1px;
+  list-style: none;
+}
+@media screen and (max-width: 48em) {
+  .phone {
+    top: 77%;
+    right: 35%;
+  }
 }
