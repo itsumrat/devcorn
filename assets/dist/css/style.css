@@ -28,6 +28,12 @@ body {
   src: url(../fonts/arial-rounded-mt-bold.ttf);
 }
 
+@font-face {
+  font-family: timesNewRoman;
+
+  src: url(../fonts/times.ttf);
+}
+
 #process {
   position: relative;
   width: 100%;
@@ -134,34 +140,228 @@ body {
   color: #f2d904;
 }
 #portfolio .products .dribbble {
+  position: relative;
+  width: 150px;
+  height: 40px;
   margin-right: 150px;
+}
+#portfolio .products .dribbble .fa-dribbble {
+  display: block;
+  -webkit-transition: opacity 300ms;
+       -o-transition: opacity 300ms;
+          transition: opacity 300ms;
+}
+#portfolio .products .dribbble:hover .fa-dribbble {
+  opacity: 0;
+}
+#portfolio .products .dribbble .cornerLink {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  padding: 2px 10px;
+  font-family: "timesNewRoman";
+  font-size: 24px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
+}
+#portfolio .products .dribbble:hover .cornerLink {
+  opacity: 1;
 }
 #portfolio .products .behance {
+  position: relative;
+  width: 150px;
+  height: 40px;
   margin-right: 150px;
 }
+#portfolio .products .behance .fa-behance {
+  display: block;
+  -webkit-transition: opacity 300ms;
+       -o-transition: opacity 300ms;
+          transition: opacity 300ms;
+}
+#portfolio .products .behance:hover .fa-behance {
+  opacity: 0;
+}
+#portfolio .products .behance .cornerLink {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  padding: 2px 0;
+  font-family: "timesNewRoman";
+  font-size: 24px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
+}
+#portfolio .products .behance:hover .cornerLink {
+  opacity: 1;
+}
 #portfolio .products .envato {
+  position: relative;
+  width: 150px;
+  height: 40px;
   margin-right: 150px;
+}
+#portfolio .products .envato .fa-envira {
+  display: block;
+  -webkit-transition: opacity 300ms;
+       -o-transition: opacity 300ms;
+          transition: opacity 300ms;
+}
+#portfolio .products .envato:hover .fa-envira {
+  opacity: 0;
+}
+#portfolio .products .envato .cornerLink {
+  position: absolute;
+  position: relative; 
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  padding: 2px 0;
+  font-family: "timesNewRoman";
+  font-size: 24px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
+}
+#portfolio .products .envato .cornerLink:before {
+  position: absolute;
+  top: 1px;
+  right: 46px;
+  width: 24px; 
+  height: 24px;
+  content: "";
+  border-color: #c47135;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  -webkit-transition: all .25s;
+       -o-transition: all .25s;
+          transition: all .25s;
+}
+#portfolio .products .envato .cornerLink:after {
+  position: absolute;
+  bottom: -1px;
+  left: 46px;
+  width: 24px; 
+  height: 24px;
+  content: "";
+  border-color: #c47135;
+  border-style: solid;
+  border-width: 0;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  -webkit-transition: all .25s;
+       -o-transition: all .25s;
+          transition: all .25s;
+}
+#portfolio .products .envato:hover .cornerLink {
+  opacity: 1;
+}
+#portfolio .products .themeforest {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  margin-right: 150px;
+}
+#portfolio .products .themeforest .fa-themeisle {
+  display: block;
+  -webkit-transition: opacity 300ms;
+       -o-transition: opacity 300ms;
+          transition: opacity 300ms;
+}
+#portfolio .products .themeforest:hover .fa-themeisle {
+  opacity: 0;
+}
+#portfolio .products .themeforest .cornerLink {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  padding: 2px 0;
+  font-family: "timesNewRoman";
+  font-size: 24px;
+  line-height: 1.2;
+  color: #5d5d5d;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
+}
+#portfolio .products .themeforest:hover .cornerLink {
+  opacity: 1;
+}
+#portfolio hr {
+  margin: 85px 0;
 }
 #portfolio h2 {
   float: right;
   margin-top: 40px; 
   margin-right: 80px;
-  font-family: "Times New Roman";
+  font-family: "timesNewRoman";
   font-size: 30px;
+  font-weight: normal;
   line-height: 1.2;
   color: #5d5d5d;
   text-transform: capitalize;
 }
-#portfolio .clients {
+#portfolio h2 span {
+  padding: 0 13px; 
+  background-color: #fee40a;
+}
+#portfolio h2 span:after {
+  position: absolute;
+  right: 54.6%;
+  width: 2px;
+  height: 29px;
+  margin-top: 2px; 
+  content: "";
+  background-color: #fee40a;
+  border: 1px solid #fee40a;
+}
+#portfolio h2 span:before {
+  position: absolute;
+  right: 54.2%;
+  width: 2px;
+  height: 29px;
+  margin-top: 2px; 
+  content: "";
+  background-color: #fee40a;
+  border: 1px solid #fee40a;
+}
+#portfolio .clients1, #portfolio .clients2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display:         inline-flex;
-  padding-left: 0; 
+  padding-left: 0;
+  margin-top: 0; 
+  margin-bottom: 10px;
   list-style: none;
 }
-#portfolio .clients li {
-  padding: 10px;
+#portfolio .clients1 li, #portfolio .clients2 li {
+  padding: 7px 15px;
   margin-right: 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;

@@ -18,34 +18,222 @@
 		color: #f2d904;
 
 		.dribbble {
-			margin-right: 150px;
+		    position: relative;
+		    width: 150px;
+		    height: 40px; 
+		    margin-right: 150px;
+
+		    .fa-dribbble {
+			    display: block;
+			    transition: opacity 300ms;
+			}
+			&:hover .fa-dribbble {
+			  opacity: 0;
+			}
+			.cornerLink {
+				font-size: 24px;
+				font-family: "timesNewRoman";
+				color: rgb(93, 93, 93);
+				line-height: 1.2;
+			    opacity: 0;
+			    position: absolute;
+			    bottom: 30px;
+			    left: 0px;
+			    right: 0px;
+			    padding: 2px 10px;
+			    text-decoration: none;
+			    text-align: center;
+			    transition: opacity 500ms;    
+			}
+
+			&:hover .cornerLink {
+			    opacity: 1;
+			}
 		}
 		.behance {
-			margin-right: 150px;
+		    position: relative;
+		    width: 150px;
+		    height: 40px; 
+		    margin-right: 150px;
+
+		    .fa-behance {
+			    display: block;
+			    transition: opacity 300ms;
+			}
+			&:hover .fa-behance {
+			  opacity: 0;
+			}
+			.cornerLink {
+				font-size: 24px;
+				font-family: "timesNewRoman";
+				color: rgb(93, 93, 93);
+				line-height: 1.2;
+			    opacity: 0;
+			    position: absolute;
+			    bottom: 30px;
+			    left: 0px;
+			    right: 0px;
+			    padding: 2px 0px;
+			    text-decoration: none;
+			    text-align: center;
+			    transition: opacity 500ms;    
+			}
+
+			&:hover .cornerLink {
+			    opacity: 1;
+			}
 		}
 		.envato {
-			margin-right: 150px;
+		    position: relative;
+		    width: 150px;
+		    height: 40px; 
+		    margin-right: 150px;
+
+		    .fa-envira {
+			    display: block;
+			    transition: opacity 300ms;
+			}
+			&:hover .fa-envira {
+			  opacity: 0;
+			}
+			.cornerLink {
+				font-size: 24px;
+				font-family: "timesNewRoman";
+				color: rgb(93, 93, 93);
+				line-height: 1.2;
+			    opacity: 0;
+			    position: absolute;
+			    bottom: 30px;
+			    left: 0px;
+			    right: 0px;
+			    padding: 2px 0px;
+			    text-decoration: none;
+			    text-align: center;
+			    transition: opacity 500ms;
+			    position: relative;
+
+			    &:before {
+			    	border-color: #c47135;
+				    border-left-width: 2px;
+				    border-top-width: 2px;
+				    top: 1px;
+    				right: 46px;
+				    transition: all 0.25s;
+				    border-style: solid;
+				    border-width: 0;
+				    content: "";
+				    height: 24px;
+				    position: absolute;
+				    width: 24px;
+			    } 
+
+			    &:after {
+			    	border-bottom-width: 2px;
+				    border-color: #c47135;
+				    border-right-width: 2px;
+				    bottom: -1px;
+    				left: 46px;
+				    transition: all 0.25s;
+				    border-style: solid;
+				    border-width: 0;
+				    content: "";
+				    height: 24px;
+				    position: absolute;
+				    width: 24px;
+			    }   
+			}
+
+			&:hover .cornerLink {
+			    opacity: 1;
+			}
 		}
+		.themeforest {
+		    position: relative;
+		    width: 150px;
+		    height: 40px;  
+		    margin-right: 150px;
+
+		    .fa-themeisle {
+			    display: block;
+			    transition: opacity 300ms;
+			}
+			&:hover .fa-themeisle {
+			  opacity: 0;
+			}
+			.cornerLink {
+				font-size: 24px;
+				font-family: "timesNewRoman";
+				color: rgb(93, 93, 93);
+				line-height: 1.2;
+			    opacity: 0;
+			    position: absolute;
+			    bottom: 30px;
+			    left: 0px;
+			    right: 0px;
+			    padding: 2px 0px;
+			    text-decoration: none;
+			    text-align: center;
+			    transition: opacity 500ms;    
+			}
+
+			&:hover .cornerLink {
+			    opacity: 1;
+			}
+		}
+	}
+
+	hr {
+		margin: 85px 0;
 	}
 
 	h2 {
 		font-size: 30px;
-		font-family: "Times New Roman";
+		font-family: "timesNewRoman";
+		font-weight: normal;
 		color: rgb(93, 93, 93);
 		line-height: 1.2;
 		text-transform: capitalize;
 		float: right;
 		margin-right: 80px;
 		margin-top: 40px;
+
+		span {
+			background-color: rgb(254, 228, 10);
+			padding: 0 13px;
+
+			&:after {
+				width: 2px;
+			    height: 29px;
+			    content: "";
+			    border: 1px solid rgb(254, 228, 10);
+			    background-color: rgb(254, 228, 10);
+			    position: absolute;
+			    right: 54.6%;
+			    margin-top: 2px;
+			}
+
+			&:before {
+		    	width: 2px;
+			    height: 29px;
+			    content: "";
+			    border: 1px solid rgb(254, 228, 10);
+			    background-color: rgb(254, 228, 10);
+			    position: absolute;
+			    right: 54.2%;
+			    margin-top: 2px;
+		    }
+		}
 	}
 
-	.clients {
+	.clients1, .clients2 {
 		list-style: none;
 		display: inline-flex;
 		padding-left: 0;
+		margin-bottom: 10px;
+		margin-top: 0;
 
 		li {
-			padding: 10px;
+			padding: 7px 15px;
 			border: 1px solid gray;
 			margin-right: 20px;
 			font-size: 16px;
@@ -55,3 +243,6 @@
 		}
 	}
 }
+
+
+
