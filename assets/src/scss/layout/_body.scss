@@ -4,10 +4,20 @@
  */
 body {
 	margin: 0;
+	z-index: 0;
+	overflow-x: hidden;
 }
 .content-container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+.body-container {
+	position:relative;
+	z-index:1;
+}
+
+section {
+	background-color: #fff;
 }

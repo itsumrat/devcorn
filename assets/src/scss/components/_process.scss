@@ -53,10 +53,9 @@
 			    top: -30%;
 			}
 
-			/* .icon-box:last-of-type:after {
-				width: 0;
-				height: 0;
-			}  */
+			.icon-box:nth-child(5):after {
+				content: " ";
+			} 
 			.research,
 			.sketch,
 			.development,
