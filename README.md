@@ -1,2 +1,2 @@
 # sparkbit
-Official single page website for Spark bit
+Official single page website for devcorn
