@@ -15,7 +15,7 @@
       z-index: -1;
       margin-top: -7px;
       font-family: FontAwesome;
-      color: #fee40a;
+      color: rgba(49, 132, 191, 0.5);
       content: "\f086";
       font-size: 50px;
     }
@@ -28,7 +28,7 @@
     .below-box {
       width: 360px;
       height: 155px;
-      background-color: #ffc80a;
+      background-color: rgba(49, 132, 191, 1);
     }
 
     address {
@@ -138,7 +138,7 @@ button {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    background-color: #ffc80a;
+    background-color: rgba(49, 132, 191, 1);
     border: 0;
     border-radius: 32px;
     outline: 0;

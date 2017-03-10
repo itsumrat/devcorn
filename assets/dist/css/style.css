@@ -70,7 +70,7 @@ body {
   font-family: "arialRounded";
   font-size: 30px;
   line-height: 1.2;
-  color: #f2d904;
+  color: #fff;
 }
 #process .box h1:after {
   position: absolute;
@@ -85,7 +85,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.2;
-  color: #f2d904;
+  color: #fff;
   text-transform: uppercase;
   /* .circle1,
 			.circle2,
@@ -107,7 +107,7 @@ body {
   width: 7px;
   height: 7px;
   content: "";
-  border: 2px solid #fee40a;
+  border: 2px solid #3184bf;
   border-radius: 50%;
 }
 #process .box .procedure .icon-box:nth-child(5):after {
@@ -129,8 +129,8 @@ body {
 }
 #process .box .procedure .icon-box .fa {
   padding: 35px 30px;
-  color: #fee40a;
-  border: 2px solid #fee40a;
+  color: #3184bf;
+  border: 2px solid #3184bf;
   -webkit-transition: all .2s;
        -o-transition: all .2s;
           transition: all .2s; 
@@ -141,7 +141,7 @@ body {
 }
 #process .box .procedure .icon-box .fa:hover {
   color: white;
-  background-color: #fee40a;
+  background-color: #3184bf;
 }
 
 #portfolio {
@@ -163,7 +163,7 @@ body {
   font-family: Montserrat,sans-serif;
   font-size: 16px;
   line-height: 1.2;
-  color: #f2d904;
+  color: #3184bf;
 }
 #portfolio .products .dribbble {
   position: relative;
@@ -210,7 +210,7 @@ body {
   width: 24px;
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-top-width: 2px;
@@ -226,7 +226,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-right-width: 2px;
@@ -278,7 +278,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-top-width: 2px;
@@ -294,7 +294,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-right-width: 2px;
@@ -346,7 +346,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-top-width: 2px;
@@ -362,7 +362,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-right-width: 2px;
@@ -414,7 +414,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-top-width: 2px;
@@ -430,7 +430,7 @@ body {
   width: 24px; 
   height: 24px;
   content: "";
-  border-color: #fee40a;
+  border-color: #3184bf;
   border-style: solid;
   border-width: 0;
   border-right-width: 2px;
@@ -459,7 +459,7 @@ body {
 }
 #portfolio h2 span {
   padding: 0 13px; 
-  background-color: #fee40a;
+  background-color: #3184bf;
 }
 #portfolio h2 span:after {
   position: absolute;
@@ -468,8 +468,8 @@ body {
   height: 29px;
   margin-top: 2px; 
   content: "";
-  background-color: #fee40a;
-  border: 1px solid #fee40a;
+  background-color: #3184bf;
+  border: 1px solid #3184bf;
 }
 #portfolio h2 span:before {
   position: absolute;
@@ -478,8 +478,8 @@ body {
   height: 29px;
   margin-top: 2px; 
   content: "";
-  background-color: #fee40a;
-  border: 1px solid #fee40a;
+  background-color: #3184bf;
+  border: 1px solid #3184bf;
 }
 #portfolio .clients1, #portfolio .clients2, #portfolio .clients3 {
   display: -webkit-inline-box;
@@ -505,9 +505,9 @@ body {
           transition: all .15s ease;
 }
 #portfolio .clients1 li:hover, #portfolio .clients2 li:hover, #portfolio .clients3 li:hover {
-  color: #333; 
-  -webkit-box-shadow: 0 0 0 4px #333;
-          box-shadow: 0 0 0 4px #333;
+  color: #3184bf; 
+  -webkit-box-shadow: 0 0 0 4px #3184bf;
+          box-shadow: 0 0 0 4px #3184bf;
 }
 
 @media screen and (max-width: 1100px) {
@@ -552,7 +552,7 @@ body {
   margin-top: -7px;
   font-family: FontAwesome;
   font-size: 50px; 
-  color: #fee40a;
+  color: rgba(49, 132, 191, .5);
   content: "\f086";
 }
 #contact .address {
@@ -562,7 +562,7 @@ body {
 #contact .address .below-box {
   width: 360px;
   height: 155px;
-  background-color: #ffc80a;
+  background-color: #3184bf;
 }
 #contact .address address {
   position: absolute;
@@ -678,7 +678,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  background-color: #ffc80a;
+  background-color: #3184bf;
   border: 0;
   border-radius: 32px;
   outline: 0;
@@ -797,32 +797,13 @@ section {
   color: white;
   text-align: center;
 }
-.header ul {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display:         inline-flex;
-  padding: 0;
-  margin-top: 35px; 
-  list-style: none;
-}
-.header ul li {
-  padding-right: 10px;
-  padding-left: 10px; 
+.header h6 {
+  margin-top: 1.5rem; 
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 1;
-  color: #ffea00;
+  color: #fff;
   text-transform: capitalize;
-  border-right: 1px solid #ffea00;
-}
-.header ul li:last-of-type {
-  border-right: 0;
-}
-@media screen and (max-width: 365px) {
-  .header ul li {
-    font-size: 15px;
-  }
 }
 
 .social {
@@ -848,27 +829,28 @@ section {
 .social li {
   padding: 20px 12px;
   margin: 0 5px;
-  border: 1px solid #cbcbc9;
+  border: 1px solid #fff;
   -webkit-transition: all .15s ease;
        -o-transition: all .15s ease;
           transition: all .15s ease;
 }
 .social li:hover {
-  color: #333; 
-  border-color: #ffea00;
-  -webkit-box-shadow: 0 0 0 4px #ffea00;
-          box-shadow: 0 0 0 4px #ffea00;
+  color: #fff; 
+  border-color: #3184bf;
+  -webkit-box-shadow: 0 0 0 4px #3184bf;
+          box-shadow: 0 0 0 4px #3184bf;
 }
 .social li a {
   padding: 9px;
-  border: 1px solid #cbcbc9;
+  border: 1px solid #fff;
   border-radius: 50%;
 }
 .social li a:hover {
-  background-color: #cbcbc9;
+  background-color: #3184bf;
+  border: 1px solid #3184bf;
 }
 .social li a:hover .fa {
-  color: #ffea00; 
+  color: #fff; 
   -webkit-transform: scale(1.25);
       -ms-transform: scale(1.25);
        -o-transform: scale(1.25);
@@ -878,13 +860,13 @@ section {
   padding: 9px 11px;
 }
 .social li a .fa {
-  color: #cbcbc9;
+  color: #fff;
   -webkit-transition: all .15s ease;
        -o-transition: all .15s ease;
           transition: all .15s ease;
 }
 .social li a .fa:hover {
-  color: #ffea00;
+  color: #fff;
 }
 @media screen and (max-width: 48em) {
   .social {
@@ -905,7 +887,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.667;
-  color: #cbcbc9;
+  color: #fff;
   letter-spacing: 1px;
   list-style: none;
 }
@@ -921,7 +903,7 @@ section {
   z-index: 1; 
   min-width: 100%;
   min-width: 100%;
-  background-color: #c43d2c;
+  background-color: #3184bf;
 }
 
 .logo {
@@ -966,7 +948,7 @@ nav ul a {
           transition: all .5s ease;
 }
 nav ul a:hover {
-  color: #ffea00;
+  color: #f4f4f4;
 }
 
 nav li {
@@ -1072,7 +1054,7 @@ footer .heart {
        -o-animation: pulse 1s ease infinite;
           animation: pulse 1s ease infinite; 
 
-  fill: #ffc80a;
+  fill: rgba(49, 132, 191, .5);
 }
 
 @-webkit-keyframes pulse {
